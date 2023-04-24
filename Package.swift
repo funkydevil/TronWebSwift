@@ -30,6 +30,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftProtobuf", package: "swift-protobuf"),
                 "CryptoSwift",
+                "secp256k1",
 //                 .product(name: "Secp256k1Swift", package: "Secp256k1Swift"),
 //                 .product(name: "BIP32Swift", package: "Secp256k1Swift"),
                 "PromiseKit"
