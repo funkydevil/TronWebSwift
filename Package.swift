@@ -32,7 +32,7 @@ let package = Package(
             dependencies: [
                 .product(name: "SwiftProtobuf", package: "swift-protobuf"),
                 "CryptoSwift",
-                "secp256k1",
+//                 "secp256k1",
                 .product(name: "secp256k1", package: "web3swift"),
 //                 .product(name: "Secp256k1Swift", package: "Secp256k1Swift"),
 //                 .product(name: "BIP32Swift", package: "Secp256k1Swift"),
